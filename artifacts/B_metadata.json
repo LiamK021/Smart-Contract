@@ -1,0 +1,52 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "createMemArrays",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"B.sol": "B"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"B.sol": {
+			"keccak256": "0xee791401c08754f4bc0a0defa42b656189cf6e7d5a3c89e3bc120b4b1c917fdd",
+			"urls": [
+				"bzz-raw://c4645d7e1d7eeebfa9ba630e951a8105aadeaaf8d3d808e56954a3b2d4df636d",
+				"dweb:/ipfs/Qmd95AFR3C7jvGQ3qgcmbmPudakKC2a3pe4RchjPh3U3sa"
+			]
+		}
+	},
+	"version": 1
+}

@@ -8,10 +8,12 @@ contract B {
         numbers[1] = 2;
         
         uint256 users_num = numbers.length;
-        address[users_num] memory users1;
+        //address[users_num] memory users1;
+        //It is error
         
         address[] memory users2 = new address[](users_num);
         users2[0] = msg.sender;
-        users2.push(msg.sender);
+        // users2.push(msg.sender);
+        //can not push with this array
     }
 }
