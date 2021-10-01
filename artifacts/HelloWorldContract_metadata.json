@@ -1,0 +1,58 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "hellowWord",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"HelloWorldContract.sol": "HelloWorldContract"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"HelloWorldContract.sol": {
+			"keccak256": "0x72270128556ab3e201bd4d689135a4520ba94305a7c4d8df0e86625587d1937f",
+			"urls": [
+				"bzz-raw://3841b674ff37bdec5825f4506646c564ad5e44985f6d2d072f4eaf9553ec03a4",
+				"dweb:/ipfs/QmTrujyj77ndpygAjeUNNHfK1zk992BbBHVZNiDpmYSCBH"
+			]
+		}
+	},
+	"version": 1
+}
