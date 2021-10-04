@@ -56,6 +56,24 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdrawMoney",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -86,10 +104,10 @@
 	},
 	"sources": {
 		"MappingsStructExample.sol": {
-			"keccak256": "0x096449ffa61edc15c2d641084792738eaadf13ad20936cbe8050dbf11e24e510",
+			"keccak256": "0xf46b6848de033abb078136a26c658e1a080f707a893526c5bc6637aa81e6c168",
 			"urls": [
-				"bzz-raw://204f25b45b53517ddb4fce80cebcce27c42647fb03f1b856b90f1736d36044a8",
-				"dweb:/ipfs/QmVUzU8RcQiof6y53yMpumwAqwBzwRstxrDvxhDnFpgwJn"
+				"bzz-raw://2ef1c9dbfc1c7aa1faa806e5eb0b5252dd0670ed2e073ef9e5752f0d990564bd",
+				"dweb:/ipfs/QmcQj5cAy7HnK6d34JDe1oFkmdGDk2uiJXhZHauqKifFxx"
 			]
 		}
 	},
