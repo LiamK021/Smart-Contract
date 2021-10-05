@@ -85,6 +85,19 @@
 						"type": "uint256"
 					}
 				],
+				"name": "triggerDelivery",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
 				"name": "triggerPayment",
 				"outputs": [],
 				"stateMutability": "payable",
@@ -126,10 +139,10 @@
 			]
 		},
 		"ItemManager.sol": {
-			"keccak256": "0xb9881451a4cd801d2fcb16efba629bc47fa557994a1e05ef5d19f39a9245d93a",
+			"keccak256": "0xa7ac3f95b29b26686c25e8ace56ebeb83fc95ac69f84ec363ae4a665697012ff",
 			"urls": [
-				"bzz-raw://411efc9d9c06b86e1ba7dea2568a70e8919607c5d59f0174467fde4379c3b067",
-				"dweb:/ipfs/QmPbssSUcPWhESvbycZDswC7EveZXtDqgjeaYgd2S1WVm1"
+				"bzz-raw://11ad392cf9ea922360a34ff2d0c327c830105235a9a3f3061685010bd2cd7db0",
+				"dweb:/ipfs/QmRCyHxptrJaDrvy5PnXfhCYLqiHvkDyyDSNSq1g8U6w5J"
 			]
 		}
 	},

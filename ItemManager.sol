@@ -36,4 +36,10 @@ contract ItemManager{
         items[_index]._step = SupplyChainSteps.Paid;
         emit SupplyChainStep(_index, uint(items[_index]._step), address(item));
     }
+    
+    function triggerDelivery( uint _index) public {
+        require( items[_index]._step == SupplyChainSteps.Paid, "It is further in the supply chain");
+        items[_index]._step = SupplyChainSteps.Delivered;
+        emit SupplyChainStep(_index, uint(items[_index]._step), address(items[_index]._item));
+    }
 }
